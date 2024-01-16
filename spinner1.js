@@ -13,10 +13,10 @@ setTimeout(() => {
 
 setTimeout(() => {
   // Need to escape the backslash since it's a special character.
-  process.stdout.write('\r\\   '); 
+  process.stdout.write('\r\\   ');
 }, 700);
 
-//200 incriments 
+//200 incriments
 
 setTimeout(() => {
   process.stdout.write('\r|   ');
@@ -32,7 +32,7 @@ setTimeout(() => {
 
 setTimeout(() => {
   // Need to escape the backslash since it's a special character.
-  process.stdout.write('\r\\   '); 
+  process.stdout.write('\r\\   ');
 }, 1500);
 
 //last character is the same as starting for full circle effect
